@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find freenect_launch)/launch/freenect.launch"></include>
+  <node name="face_detector" pkg="bwi_kr_execution" type="face_detector"></node>
+</launch>
